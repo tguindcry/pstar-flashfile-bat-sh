@@ -1,1 +1,1 @@
-# pstar-r-flashfile-shellscript
+# pstar-flashfile-shellscript
