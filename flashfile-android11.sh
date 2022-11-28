@@ -34,3 +34,5 @@ fastboot erase metadata
 fastboot erase ddr
 fastboot oem fb_mode_clear
 fastboot reboot bootloader
+echo "Done!"
+pause
