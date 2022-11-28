@@ -28,7 +28,6 @@ fastboot flash super super.img_sparsechunk.7
 fastboot flash super super.img_sparsechunk.8
 fastboot flash super super.img_sparsechunk.9
 fastboot flash super super.img_sparsechunk.10
-fastboot flash super super.img_sparsechunk.11
 fastboot erase carrier
 fastboot erase userdata
 fastboot erase metadata
