@@ -4,6 +4,7 @@ fastboot getvar max-sparse-size
 fastboot oem fb_mode_set
 fastboot flash partition gpt.bin
 fastboot flash bootloader bootloader.img
+fastboot reboot bootloader
 fastboot flash vbmeta vbmeta.img
 fastboot flash vbmeta_system vbmeta_system.img
 fastboot flash modem NON-HLOS.bin
@@ -34,6 +35,5 @@ fastboot erase userdata
 fastboot erase metadata
 fastboot erase ddr
 fastboot oem fb_mode_clear
-fastboot reboot bootloader
-echo "Done!"
-pause
+fastboot reboot
+read -p "Done!"
